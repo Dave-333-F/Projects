@@ -1,0 +1,72 @@
+# Only this coursework collection belongs in the repository. New root folders
+# must be deliberately added here; lecture material and unrelated tools stay local.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/COLLABORATION.md
+!/CONTRIBUTIONS.md
+!/BUILD-VERIFICATION.md
+!/build-all.ps1
+!/CMakeLists.txt
+!/coursework.cpp
+!/run-coursework.cmd
+!/common/
+!/hangman/
+!/tic-tac-toe/
+!/library/
+!/blue-screen-demo/
+!/tests/
+!/tools/
+!/bin/
+
+# Local records, test output, IDE state and dependency caches.
+**/data/
+**/results/
+**/__pycache__/
+**/node_modules/
+**/.wrangler/
+**/.vscode/
+**/.idea/
+**/evidence/
+**/quarantine/
+**/received/
+**/build/
+**/dist/
+*.pyc
+*.o
+*.obj
+*.pdb
+*.log
+*.tmp
+*.zip
+*.7z
+*.bin
+*.dll
+*.lnk
+*.ico
+*.exe
+
+# Credentials/private configuration never belong in a USB/Git handoff.
+.env
+.env.*
+.dev.vars
+*.pem
+*.key
+*.pfx
+*.p12
+credentials*.json
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# The user requested ready-to-run binaries. Keep exactly the current five;
+# exclude the old shortcut builder, duplicate versions, test programs and data.
+/bin/*
+!/bin/README.md
+!/bin/SHA256SUMS.txt
+!/bin/coursework-cursor.exe
+!/bin/hangman-cursor.exe
+!/bin/tic-tac-toe-cursor.exe
+!/bin/library-cursor.exe
+!/bin/blue-screen-demo.exe
